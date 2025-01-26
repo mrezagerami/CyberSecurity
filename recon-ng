@@ -1,0 +1,56 @@
+recon-ng
+run this command:
+marketplace search
+[recon-ng][web-reza] > marketplace search
+
+  +--------------------------------------------------------------------------------------------------+
+  |                        Path                       | Version |     Status    |  Updated   | D | K |
+  +--------------------------------------------------------------------------------------------------+
+  | discovery/info_disclosure/cache_snoop             | 1.1     | not installed | 2020-10-13 |   |   |
+  | discovery/info_disclosure/interesting_files       | 1.2     | not installed | 2021-10-04 |   |   |
+  | exploitation/injection/command_injector           | 1.0     | not installed | 2019-06-24 |   |   |
+  | exploitation/injection/xpath_bruter               | 1.2     | not installed | 2019-10-08 |   |   |
+  | import/csv_file                                   | 1.1     | not installed | 2019-08-09 |   |   |
+  | import/list                                       | 1.1     | not installed | 2019-06-24 |   |   |
+  | import/masscan                                    | 1.0     | not installed | 2020-04-07 |   |   |
+  | import/nmap                                       | 1.1     | not installed | 2020-10-06 |   |   |
+  | recon/companies-contacts/bing_linkedin_cache      | 1.0     | not installed | 2019-06-24 |   | * |
+  | recon/companies-contacts/censys_email_address     | 2.1     | not installed | 2022-01-31 | * | * |
+  | recon/companies-contacts/pen                      | 1.1     | not installed | 2019-10-15 |   |   |
+  | recon/companies-domains/censys_subdomains         | 2.1     | not installed | 2022-01-31 | * | * |
+  | recon/companies-domains/pen                       | 1.1     | not installed | 2019-10-15 |   |   |
+#if you don't have any modules or their not installed, run the following command:
+#marketplace install all
+recon-ng][web-reza] > marketplace install all
+[*] Module installed: discovery/info_disclosure/cache_snoop
+[*] Module installed: discovery/info_disclosure/interesting_files
+[*] Module installed: exploitation/injection/command_injector
+[*] Module installed: exploitation/injection/xpath_bruter
+[*] Module installed: import/csv_file
+[*] Module installed: import/list
+[*] Module installed: import/masscan
+[*] Module installed: import/nmap
+[*] Module installed: recon/companies-contacts/bing_linkedin_cache
+[*] Module installed: recon/companies-contacts/censys_email_address
+[*] Module installed: recon/companies-contacts/pen
+[*] Module installed: recon/companies-domains/censys_subdomains
+[*] Module installed: recon/companies-domains/pen
+
+#and then check again:
+marketplace search
+recon-ng][web-reza] > marketplace search
+
+  +----------------------------------------------------------------------------------------------+
+  |                        Path                       | Version |   Status  |  Updated   | D | K |
+  +----------------------------------------------------------------------------------------------+
+  | discovery/info_disclosure/cache_snoop             | 1.1     | installed | 2020-10-13 |   |   |
+  | discovery/info_disclosure/interesting_files       | 1.2     | installed | 2021-10-04 |   |   |
+  | exploitation/injection/command_injector           | 1.0     | installed | 2019-06-24 |   |   |
+  | exploitation/injection/xpath_bruter               | 1.2     | installed | 2019-10-08 |   |   |
+  | import/csv_file                                   | 1.1     | installed | 2019-08-09 |   |   |
+  | import/list                                       | 1.1     | installed | 2019-06-24 |   |   |
+  | import/masscan                                    | 1.0     | installed | 2020-04-07 |   |   |
+  | import/nmap                                       | 1.1     | installed | 2020-10-06 |   |   |
+  | recon/companies-contacts/bing_linkedin_cache      | 1.0     | installed | 2019-06-24 |   | * |
+  | recon/companies-contacts/censys_email_address     | 2.1     | installed | 2022-01-31 | * | * |
+  | recon/companies-contacts/pen                      | 1.1     | installed | 2019-10-15 |   |   |
